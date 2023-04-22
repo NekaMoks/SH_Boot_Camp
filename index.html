@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8bb8b54303.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- StartCard -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+
+    <div class="instructions_box">
+        <div class="instructions_title">
+            <span>Coding Quiz Challenge</span>
+        </div>
+        <div class="instructions_list">
+            <div class="instructions">Try to answer the following code-related questions within the time limit.</div>
+            <div class="instructions">Keep in mind that incorrect answers will penalize your score/time by ten seconds!</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="header_box">
+        <header>
+            <div>
+                <a class="view_highscores" href="/highscore.html">View Highscores<i class="fas fa-hand-point-left"></i></a>
+            </div>
+            <div class="timer">
+                <div class="time_text">Time:</div>
+                <div class="timer_sec">60</div>
+            </div>
+        </header>
+    </div>
+
+    <div class="quiz_box">
+        <section>
+            <div class="questn_text">
+                <span>HTML stands for?</span>
+            </div>
+            <div class="option_list">
+                <div class="option">
+                    <span>a. HighText Machine Language</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
+                </div>
+                <div class="option">
+                    <span>b. HyperText and links Markup Language</span>
+                </div>
+                <div class="option">
+                    <span>c. HyperText Markup Language</span>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
+                </div>
+                <div class="option">
+                    <span>d. None of these</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz Box Footer -->
+        <footer>
+            <div class="total_questn">
+                <span><p>1</p>of<p>20</p>Questions</span>
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
+    </div>
+
+    
+    <script src="Js/questions.js"></script>
+    <script src="Js/script.js"></script>
+    
+</body>
+</html>
