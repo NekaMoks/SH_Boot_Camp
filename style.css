@@ -42,7 +42,7 @@ body {
 }
 
 .start_btn button:hover {
-    background: #34aa3a;
+    background: #1ec5c0;
 }
 
 .instructions_box {
@@ -109,7 +109,7 @@ body {
 
 .buttons button.quit:hover {
     color: #fff;
-    background: #34aa3a;
+    background: #1ec5c0;
 }
 
 .buttons button.restart {
@@ -118,7 +118,7 @@ body {
 }
 
 .buttons button.restart:hover {
-    background: #34aa3a;
+    background: #1ec5c0;
 }
 
 .quiz_box {
@@ -161,7 +161,7 @@ section .option_list .option {
 }
 
 section .option_list .option:hover {
-    background: #34aa3a;
+    background: #1ec5c0;
 }
 
 .option_list .option:last-child {
@@ -180,15 +180,31 @@ section .option_list .option:hover {
 }
 
 .option_list .option .icon.tick {
-    color: #02e011;
-    border-color: #02e011;
+    color: #06ff16;
+    border-color: #06ff16;
     background: #d4edda;
 }
 
 .option_list .option .icon.cross {
-    color: #ff9099;
+    color: #fa6874;
     background: #f8d7da;
-    border-color: #ff9099;
+    border-color: #fa6874;
+}
+
+.option_list .option.correct {
+    color: #d4edda;
+    border-color: #e9f0ea;
+    background: #53c553;
+}
+
+.option_list .option.incorrect {
+    color:#d4edda;
+    border-color: #e9f0ea;
+    background: #f36060;   
+}
+
+.option_list .option.disabled {
+    pointer-events: none;
 }
 
 .header_box header {
@@ -284,5 +300,5 @@ footer .next_btn {
 }
 
 footer .next_btn:hover {
-    background: #34aa3a;
+    background: #1ec5c0;
 }

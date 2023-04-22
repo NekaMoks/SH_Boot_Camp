@@ -25,34 +25,34 @@ let questions = [
     {
         numb: 3,
         question: "Where in an HTML document is the correct place to refer to an external style sheet",
-        answer: "In the <head> section",
+        answer: "In the head section",
         options: [
-            "In the <head> section",
-            "In the <body> section",
-            "In the <css> section",
+            "In the head section",
+            "In the body section",
+            "In the CSS section",
             "At the end of the document"
         ]
     },
     {
         numb: 4,
-        question: "Inside which HTML element do we put the JavaScript",
-        answer: "<script>",
+        question: "The 'function' and 'var' are known as:",
+        answer: "Declaration statements",
         options: [
-            "<js>",
-            "<script>",
-            "<java>",
-            "<styles>"
+            "Keywords",
+            "Data types",
+            "Declaration statements",
+            "Prototypes"
         ]
     },
     {
         numb: 5,
         question: "Which statement is used to delete all rows in a table without having the action logged?",
-        answer: "TRUNCATE",
+        answer: "Truncate",
         options: [
-            "DELETE",
-            "REMOVE",
-            "DROP",
-            "TRUNCATE"
+            "Delete",
+            "Remove",
+            "Drop",
+            "Truncate"
         ]
     },
     {
@@ -78,36 +78,14 @@ let questions = [
         ]
     },
     {
-        numb: 7,
-        question: "Which CSS property controls the text size?",
-        answer: "Font-size",
-        options: [
-            "Font-size",
-            "Text-style",
-            "Text-size",
-            "Font-style"
-        ]
-    },
-    {
-        numb: 7,
-        question: "Which CSS property controls the text size?",
-        answer: "Font-size",
-        options: [
-            "Font-size",
-            "Text-style",
-            "Text-size",
-            "Font-style"
-        ]
-    },
-    {
         numb: 8,
-        question: "Which of the following is not a DDL command?",
-        answer: "UPDATE",
+        question: "In SQL, which of the following is not a DDL command?",
+        answer: "Update",
         options: [
-            "TRUNCATE",
-            "ALTER",
-            "CREATE",
-            "UPDATE"
+            "Truncate",
+            "Alter",
+            "Create",
+            "Update"
         ]
     },
     {
@@ -123,7 +101,7 @@ let questions = [
     },
     {
         numb: 10,
-        question: "When interpreter encounters an empty statements, what it will do:",
+        question: "When an interpreter encounters an empty statements, what it will do:",
         answer: "Ignores the statements",
         options: [
             "Shows a warning",
@@ -134,24 +112,24 @@ let questions = [
     },
     {
         numb: 11,
-        question: "Which of the following element is responsible for making the text bold in HTML?",
-        answer: "<b>",
+        question: "Which of the following HTML attribute is used to define inline styles?",
+        answer: "Style",
         options: [
-            "<pre>",
-            "<a>",
-            "<b>",
-            "<br>"
+            "Style",
+            "Type",
+            "Class",
+            "None of the above"
         ]
     },
     {
         numb: 12,
-        question: "What is a correct syntax to output (Hello World!) in Python?",
-        answer: Print("Hello World!"),
+        question: "What is a correct syntax to output '(Hello World!)' in Python?",
+        answer: 'print("Hello World!")',
         options: [
-            Print("Hello World!"),
-            Echo("Hello World!"),
-            Printf("Hello World!"),
-            Int("Hello World!")
+            'print("Hello World!")',
+            'echo("Hello World!")',
+            'printf("Hello World!")',
+            'int("Hello World!")'
         ]
     },
     {
@@ -212,12 +190,12 @@ let questions = [
     {
         numb: 18,
         question: "Which of the following is not a valid SQL type?",
-        answer: "DECIMAL",
+        answer: "Decimal",
         options: [
-            "FLOAT",
-            "NUMERIC",
-            "DECIMAL",
-            "CHARACTER"
+            "Float",
+            "Numeric",
+            "Decimal",
+            "Character"
         ]
     },
     {
